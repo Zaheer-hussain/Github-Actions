@@ -4,7 +4,11 @@ class GFG {
 
         if (num % 2 == 0) {
             System.out.println("Entered Number is Even");
-        } else {
+        } 
+        else if (num < 1) {
+            System.out.println("Entered Number is Negative")
+        }
+        else {
             System.out.println("Entered Number is Odd");
         }
     }
